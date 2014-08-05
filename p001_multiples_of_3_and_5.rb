@@ -7,9 +7,8 @@ max = 1000 - 1
 
 for i in 1..max
   if (i % 3 == 0) or (i % 5 == 0)
-    puts "#{i} is multiple of 3 or 5"
     sum += i
   end
 end
 
-puts sum
+puts "The sum of all the multiples of 3 or 5 below 1000 is #{sum}"

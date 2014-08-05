@@ -19,4 +19,4 @@ while true
   prev_terms.shift
 end
 
-puts sum
+puts "Sum of even-valued terms whose values do not exceed 4M in the Fibonacci sequence: #{sum}"
